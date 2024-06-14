@@ -1,0 +1,469 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    padding: 20px 120px;
+}
+
+.navber {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Home {
+    padding-left: 300px;
+    display: flex;
+    gap: 40px;
+}
+
+.search {
+    margin-left: 0px;
+    width: 393px;
+    height: 30px;
+    border: 1px solid none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#search {
+    width: 25px;
+    height: 25px;
+}
+
+.Order-Box {
+    width: 25px;
+    height: 25px;
+}
+
+.input {
+    padding: 0px;
+    width: 290px;
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.header-containner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Bike-Delivery {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #F5DDC4;
+}
+
+.Bike-Delivery h2 {
+    padding-left: 10px;
+    margin: 0px;
+    font-size: 15px;
+}
+
+#Delivery-boy {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    border: none;
+}
+
+.Fast-Delivery h1 {
+    text-transform: uppercase;
+    font-size: 96px;
+}
+
+.Fast-Delivery p {
+    width: 560px;
+}
+
+.Order-Now {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.Order {
+    background-color: #F48E28;
+    border-radius: 20px ;
+    color: #fff;
+    border: none;
+    padding: 10px 50px;
+}
+
+.food-containner {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: fit-content;
+    width: fit-content;
+    gap: 50px;
+    margin-top: 120px;
+}
+
+.Mushroom-Sauce {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 350px;
+    border-radius: 50px;
+    width: 240px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Mushroom-Sauce h1 {
+    border-top: 1px solid #B6B6B6;
+    padding-top: 25px;
+    font-size: 26px;
+    margin: 10px;
+}
+
+.Mushroom-Sauce h2 {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.Mushroom-Sauce h5 {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.header-bottom {
+    padding: 20px 120px;
+}
+
+.header-bottom-containner {
+    display: flex;
+    padding: 50px 140px;
+    border-radius: 30px;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Work {
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.icon {
+    color: #F48E28;
+    height: 40px;
+    width: 40px;
+}
+
+.Work2 {
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   width: 500px;
+   border-right: 1px solid #B6B6B6;
+   border-left: 1px solid #B6B6B6;
+}
+
+.Items-containner {
+    padding: 20px 120px;
+}
+
+.Product {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Popular-Items {
+    display: grid;
+    gap: 60px;
+    grid-template-columns: auto auto auto;
+    padding-bottom: 60px;
+}
+
+.Items {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 35px;
+    height: 535px;
+    width: 485px;
+}
+
+.Items img {
+    border-radius: 25px 25px 0px 0px;
+}
+
+.AddCart {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+.Name h1 {
+   font-size: 30px;
+}
+
+.Name button {
+   background-color: #F48E28;
+   border-radius: 50px;
+   border: none;
+   padding: 5px 40px;
+   color: white;
+   font-size: 10px;
+}
+
+.Amount {
+    padding-top: 40px;
+    text-align: right;
+}
+
+.Amount div {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Amount div img {
+    height: 14px;
+    width: 15px;
+}
+
+.Amount div h3 {
+    margin: 0px;
+    font-size: 20px;
+}
+
+#See-More-Products {
+    border-radius: 50px;
+    background-color: #F48E28;
+    color: white;
+    border: none;
+    width: 295px;
+    height: 76px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 650px;
+}
+
+.See-More-Products img {
+    width: 30px;
+    height: 30px;
+}
+
+.Favorite-Food {
+    padding: 20px 120px;
+}
+
+.Service-containner {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Food {
+    border: 1px solid white;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 100px 30px;
+    text-align: center;
+}
+
+.Food h1 {
+    font-size: 26px;
+}
+
+.Food p {
+    width: 400px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.Testimonials {
+    padding: 20px 170px;
+}
+
+.Our-Client-Says {
+    text-align: center;
+}
+
+.Client-Happy {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Client-contant {
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    padding: 110px 50px;
+    display: flex;
+}
+
+.Client {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Client-about h1 {
+    margin: 0px;
+}
+
+.Client-about p {
+    margin: 0px;
+}
+
+.Client-says {
+    width: 545px;
+    text-align: center;
+}
+
+.ClientOfFoodPicture img {
+    height: 450px;
+    width: 634px;
+    margin-right: 120px;
+}
+
+.Subcribe {
+    padding: 20px 120px;
+}
+
+.Sub {
+    padding: 10px 60px 10px 120px;
+    display: flex;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Newsletter {
+    width: 490px;
+}
+
+.Newsletter h1{
+    font-size: 30px;
+}
+
+.subcribeByEmail {
+    background-color: white;
+}
+
+.contactEmail {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    outline: none;
+    color: #000;
+    font-size: 16px;
+    justify-content: space-between;
+    width: 426px;
+    height: 50px;
+    padding: 10px 10px 10px 20px;
+    display: flex;
+}
+
+.contactEmail button {
+    border: 1px solid white;
+    background-color: #F48E28;
+    border-radius: 10px;
+    width: 149px;
+    height: 50px;
+}
+
+.contactEmail button h1 {
+    margin: 0px;
+    color: white;
+    font-size: 18px;
+}
+
+.contactEmail input {
+    font-size: 18px;
+}
+
+.footer {
+    margin-top: 100px;
+    padding: 70px 120px;
+    background-color: #FAFAFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about img {
+    height: 108px;
+    width: 181px;
+}
+
+.about p {
+    color: #B6B6B6;
+    width: 310px;
+}
+
+.open-time h1 {
+    font-size: 26px;
+    padding-bottom: 50px;
+}
+
+.open-time p {
+    color: #B6B6B6;
+}
+
+.user-link h1 {
+    font-size: 26px;
+    padding-bottom: 50px;
+}
+
+.user-link p {
+    color: #B6B6B6;
+}
+
+.contact h1 {
+    font-size: 26px;
+    padding-bottom: 50px;
+}
+
+.contact p {
+    color: #B6B6B6;
+}
+
+.email-contact {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50px;
+    outline: none;
+    color: #000;
+    font-size: 16px;
+    padding: 10px 10px 10px 20px;
+    display: flex;
+}
+
+.subcribeByEmail {
+    border: none;
+}
